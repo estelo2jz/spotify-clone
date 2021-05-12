@@ -3,6 +3,8 @@ import './App.css';
 import Login from './components/Login';
 import { getTokenFromUrl } from './spotify';
 
+import { hash } from 'react'
+
 function App() {
 
   const [token, setToken] = useState(null);
